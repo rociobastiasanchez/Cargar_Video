@@ -6,6 +6,6 @@ function seleccionar () {
             var video = document.getElementById('myvideo');
             video.src = reader.result;
         };
-
+    alert("El vídeo se está cargando")
     reader.readAsDataURL(input.files[0]);
 }
